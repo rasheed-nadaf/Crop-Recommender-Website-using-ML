@@ -146,3 +146,13 @@ form button:hover {
 .result a {
     margin-top: 20px;
 }
+
+button .goback{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 300px;
+}

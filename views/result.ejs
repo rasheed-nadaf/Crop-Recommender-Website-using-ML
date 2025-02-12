@@ -8,9 +8,18 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Recommended Crop</h1>
-    <p>The best crop for your soil and environmental conditions is: <strong><%= crop %></strong></p>
-    <button onclick="location.href='/'">Go Back Home</button>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Recommended Crop</h1>
+        <p>The best crop for your soil and environmental conditions is: <strong><%= crop %></strong></p>
+        <button class="goback" onclick="location.href='/'">Go Back Home</button>
+    </main>
     <footer>
         <p>Copyright@rasheed</p>
     </footer>
